@@ -1,0 +1,30 @@
+{ SPane:{ 
+        title:"Blinking effect",
+        description:"Control the way the LED blinks."
+    }},
+    { SCheckBox:{
+        description:"Completely disable led notifications.", 
+        label:"Disable LED",
+        default:0,
+                action:"generic /sys/class/sec/led/led_completely_disable"
+    }},
+    { SCheckBox:{
+        description:"If disabled, the controller bypasses slope generation.", 
+        label:"Enable LED fading",
+        default:1,
+                action:"generic /sys/class/sec/led/led_fade"
+    }},
+    { SSeekBar:{
+        title:"Fade-in time period",
+        description:"Sets the time period of the rising slope.",
+        min:0, max:12, unit:"ms", step:1,
+        default:2,
+                action:"generic /sys/class/sec/led/led_fade_in_time"
+    }},
+    { SSeekBar:{
+        title:"Fade-out time period",
+        description:"Sets the time period of the falling slope.",
+        min:0, max:20, unit:"ms", step:1,
+        default:8,
+                action:"generic /sys/class/sec/led/led_fade_out_time"
+    }}
