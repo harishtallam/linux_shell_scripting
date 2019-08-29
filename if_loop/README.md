@@ -6,10 +6,10 @@ Integer Comparison
 -ge - is greater than or equal to - if [ "$a" -ge "$b"]
 -lt - is less than - if [ "$a" -lt "$b"]
 -le - is less than or equal to - if [ "$a" -le "$b"]
-< - is less than - if [ "$a" < "$b"]
-<= - is less than or equal to - if [ "$a" <= "$b"]
-> - is greater than - if [ "$a" > "$b"]
->= - is greater than or equal to - if [ "$a" >= "$b"]
+< - is less than - if (( "$a" < "$b" ))
+<= - is less than or equal to - if (( "$a" <= "$b" ))
+> - is greater than - if (( "$a" > "$b" ))
+>= - is greater than or equal to - if (( "$a" >= "$b" ))
 
 
 String Comparison
@@ -17,6 +17,6 @@ String Comparison
 = - is equal to - if [ "$a" = "$b"]
 == - is equal to - if [ "$a" == "$b"]
 != - is not equal to - if [ "$a" != "$b"]
-< - is less than, in ASCII alphabetical order - if [ "$a" < "$b"]
-> - is greater than, in ASCII alphabetical order - if [ "$a" > "$b"]
+< - is less than, in ASCII alphabetical order - if [[ "$a" < "$b" ]]
+> - is greater than, in ASCII alphabetical order - if [[ "$a" > "$b" ]]
 -z - string is null, i.e; has zero length
