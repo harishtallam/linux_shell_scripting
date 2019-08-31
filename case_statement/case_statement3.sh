@@ -1,4 +1,7 @@
 #! /bin/bash
+# sh case_statement3.sh
+# sh case_statement3.sh car
+# sh case_statement3.sh abc
 
 # if no command line arg given
 # set rental to Unknown

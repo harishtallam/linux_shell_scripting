@@ -1,4 +1,5 @@
 #! /bin/bash
+# sh case_statement2.sh
 
 echo -e "Enter your choice: \c"
 read value

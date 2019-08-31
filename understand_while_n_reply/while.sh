@@ -1,3 +1,6 @@
+#! /bin/bash
+# sh while.sh
+
 while [ -z "$REPLY" ] ; do
     if [ -z "$1" ] ; then
          read -p "Do you want to continue?(yes/no) "

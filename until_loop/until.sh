@@ -1,6 +1,7 @@
 
 #!/bin/bash
 # Source: http://lowfatlinux.com/linux-script-looping.html
+# sh until.sh 1 2 3
 
 count=1
 until [ "$*" = "" ]

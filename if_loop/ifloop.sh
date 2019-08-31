@@ -1,4 +1,5 @@
 #! /bin/bash
+# sh ifloop.sh
 
 count=10
 if [ $count -eq 10 ]

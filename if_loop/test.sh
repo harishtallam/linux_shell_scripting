@@ -1,6 +1,8 @@
+#! /bin/bash
+# sh test.sh
 
 echo "Enter Choice:"
-choice=0
+#choice=0
 
 read choice
 
@@ -13,12 +15,16 @@ if [ $choice == 5 ];then
 
 	echo "Hello"
 
-elif [ $choice == 3 ];then
+fi
+
+if [ $choice == 3 ];then
 
 	echo "Buzz"
 
+fi
+
 #if [ $choice -eq 3 ] && [ $choice -eq 5 ];
-elif [ $choice -eq 53 ] || [ $choice -eq 35 ]
+if [ $choice -eq 53 ] || [ $choice -eq 35 ]
 then
 
 	echo "Hello Buzz"

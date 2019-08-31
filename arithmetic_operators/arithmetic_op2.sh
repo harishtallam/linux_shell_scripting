@@ -1,4 +1,5 @@
 #! /bin/bash
+# sh arithmetic_op2.sh
 
 num1=30
 num2=2

@@ -1,5 +1,6 @@
-# Program for Fibonacci 
-# Series 
+#! /bin/bash
+# Program for Fibonacci Series
+#  sh fibonacci.sh
 
 # Static input fo N 
 #N=8

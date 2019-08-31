@@ -1,5 +1,7 @@
 #! /bin/bash
 
+# sh array_ex1.sh
+
 os=('ubuntu' 'windows' 'mac')
 
 echo ""

@@ -1,4 +1,5 @@
 #!/bin/bash
+# sh filecopy.sh fromfile tofile
 # copy a file, creating a backup if the target file exists
 if [ $# -lt 2 ]
 then

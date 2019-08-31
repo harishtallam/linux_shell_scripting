@@ -1,4 +1,5 @@
 #! /bin/bash
+# sh if_with_logical_or.sh
 
 age=25
 

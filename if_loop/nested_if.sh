@@ -1,4 +1,5 @@
 #! /bin/bash
+# sh nested_if.sh
 
 echo -e "Enter the file name: \c"
 read filename

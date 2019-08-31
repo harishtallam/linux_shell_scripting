@@ -1,4 +1,9 @@
 #! /bin/bash
+# sh case_statement1.sh
+# sh case_statement1.sh car
+# sh case_statement1.sh jeep
+# sh case_statement1.sh abc
+
 
 vehicle=$1
 

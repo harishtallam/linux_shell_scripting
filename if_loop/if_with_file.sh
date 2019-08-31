@@ -1,4 +1,5 @@
 #! /bin/bash
+# sh if_with_file.sh
 
 echo -e "Enter the file name: \c"
 read filename
