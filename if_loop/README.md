@@ -20,3 +20,4 @@ String Comparison
 < - is less than, in ASCII alphabetical order - if [[ "$a" < "$b" ]]
 > - is greater than, in ASCII alphabetical order - if [[ "$a" > "$b" ]]
 -z - string is null, i.e; has zero length
+-n - string is not null, i.e; has non zero length (contains one or more characters)
