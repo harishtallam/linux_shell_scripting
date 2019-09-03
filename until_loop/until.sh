@@ -15,6 +15,7 @@
 count=1
 until [ "$*" = "" ]
 do
+  echo $*
   echo "value number $count $1 "
   shift
   count=$[ $count + 1 ]
