@@ -1,4 +1,5 @@
 #! /bin/bash
+# sh while.sh hi
 # sh while.sh
 
 while [ -z "$REPLY" ] ; do
