@@ -8,6 +8,8 @@
 #   command
 # done
 
+# sh while_ex1.sh
+
 n=1
 
 while [ $n -le 10 ]
