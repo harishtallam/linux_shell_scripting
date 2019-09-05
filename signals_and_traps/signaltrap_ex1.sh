@@ -1,7 +1,8 @@
 #! /bin/bash
+# sh signaltrap_ex1.sh
 
-trap "Exit command detected" 0
+trap "echo Exit command detected" 0
 
 echo "Hello Harish"
 
-exit
+exit 0
