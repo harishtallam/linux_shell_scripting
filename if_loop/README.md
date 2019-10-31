@@ -1,4 +1,5 @@
-<h2><b>Integer Comparison<b><h2>
+<b>Integer Comparison<b>
+------------------------
 
 -eq - is equal to - if [ "$a" -eq "$b"] 
 
@@ -21,7 +22,8 @@
 >= - is greater than or equal to - if (( "$a" >= "$b" ))
 
 
-<h2><b>String Comparison<b><h2>
+<b>String Comparison<b>
+-----------------------
 
 = - is equal to - if [ "$a" = "$b"]
 
